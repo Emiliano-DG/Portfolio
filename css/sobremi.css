@@ -1,0 +1,104 @@
+.sobremi {
+  background-color: var(--background-color);
+  color: #fff;
+  padding: 50px 20px;
+}
+
+.sobremi__contenedor {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.titulo {
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.sobremi p {
+  font-size: 1rem;
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+.sobremi__info span {
+  font-size: 1.2rem;
+  color: var(--naranja-color);
+  font-weight: bold;
+}
+
+.fila {
+  display: flex;
+}
+
+.col {
+  width: 80%;
+}
+.subtitulo {
+  font-size: 1.6rem;
+  margin-bottom: 25px;
+}
+.col__lista {
+  list-style: none;
+}
+.col__link {
+  margin: 12px 0;
+}
+.link {
+  color: var(--naranja-color);
+}
+
+.contenedor__intereses {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.interes {
+  font-size: 1.2rem;
+  width: 100px;
+  height: 100px;
+  background-color: var(--tarjetas-color);
+  border-radius: 10px;
+  margin: 0 15px 15px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+.interes:hover {
+  background-color: var(--naranja-color);
+}
+
+.interes i {
+  margin-bottom: 8px;
+}
+
+.button-cv {
+  cursor: pointer;
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  /* width: fit-content; */
+  display: block;
+  padding: 8px 12px;
+  font-size: 1rem;
+  margin: 20px auto;
+  position: relative;
+  z-index: 10;
+  border-radius: 8px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--naranja-color);
+  width: 0;
+  height: 100%;
+  z-index: -1;
+  transition: 1s;
+}
+.button-cv:hover .overlay {
+  width: 100%;
+}

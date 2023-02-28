@@ -1,0 +1,117 @@
+.skills {
+  background-color: var(--backgound-light);
+  color: #fff;
+  padding: 50px 20px;
+}
+.skills__contenedor {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.titulo {
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 20px 0;
+}
+.skill__nombre {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.skill__barra {
+  height: 8px;
+  width: 80%;
+  background-color: var(--barra-color);
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.skill__progreso {
+  background-color: var(--naranja-color);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 8px;
+}
+
+.skill__porcentaje {
+  background-color: var(--naranja-color);
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 0.96rem;
+  top: -17px;
+  right: -15px;
+}
+
+/* Clase que se agrega con Javascript */
+
+.javascript {
+  width: 0%;
+  animation: 2s javascript forwards;
+}
+
+@keyframes javascript {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
+.htmlcss {
+  width: 0%;
+  animation: 2s htmlcss forwards;
+}
+
+@keyframes htmlcss {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
+.tequipo {
+  width: 0%;
+  animation: 2s tequipo forwards;
+}
+
+@keyframes tequipo {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+.comunicacion {
+  width: 0%;
+  animation: 2s comunicacion forwards;
+}
+
+@keyframes comunicacion {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+.creatividad {
+  width: 0%;
+  animation: 2s creatividad forwards;
+}
+
+@keyframes creatividad {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}

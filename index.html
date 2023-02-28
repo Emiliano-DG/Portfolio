@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/menu.css" />
+    <link rel="stylesheet" href="css/inicio.css" />
+    <link rel="stylesheet" href="css/sobremi.css" />
+    <link rel="stylesheet" href="css/skills.css" />
+    <link rel="stylesheet" href="css/curriculum.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- MENU ENCABEZADO -->
+    <header class="conteiner">
+      <nav class="nav">
+        <div>
+          <a href="#" class="nav__logo">Emiliano</a>
+        </div>
+
+        <div class="nav__menu">
+          <ul class="nav__list">
+            <li><a href="#inicio" class="nav__link">INICIO</a></li>
+            <li><a href="#sobremi" class="nav__link">SOBRE MI</a></li>
+            <li><a href="#skills" class="nav__link">SKILLS</a></li>
+            <li><a href="#curriculum" class="nav__link">CURRICULUM</a></li>
+            <li><a href="#portfolio" class="nav__link">PORTFOLIO</a></li>
+            <li><a href="#contacto" class="nav__link">CONTACTO</a></li>
+          </ul>
+        </div>
+
+        <div class="nav__responsive">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </nav>
+    </header>
+    <!-- SECCION INICIO -->
+    <section class="inicio">
+      <div class="banner">
+        <div class="banner__img">
+          <img src="img/perfil.jfif" alt="foto perfil" />
+        </div>
+        <h1>EMILIANO GEUNA</h1>
+        <h2>Front End Developer</h2>
+        <div class="banner__redes">
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+    </section>
+    <!-- SECCION SOBRE MI -->
+    <section class="sobremi" id="sobremi">
+      <div class="sobremi__contenedor">
+        <div class="sobremi__info">
+          <h2 class="titulo">SOBRE MI</h2>
+          <p>
+            <span>Hola, soy Emiliano Geuna.</span> Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Sed quasi provident totam, deserunt
+            possimus, fugiat odio obcaecati iure eum est non facere mollitia
+            ducimus doloribus ab voluptas quas natus cum.
+          </p>
+        </div>
+        <div class="fila">
+          <!-- datos personales -->
+          <div class="col">
+            <h3 class="subtitulo">Datos personales</h3>
+            <ul class="col__lista">
+              <li class="col__link">
+                <strong class="link">Edad:</strong>
+                28 años
+              </li>
+              <li class="col__link">
+                <strong class="link">Nacionalidad:</strong>
+                Argentino
+              </li>
+              <li class="col__link">
+                <strong class="link">Fecha de nacimiento:</strong>
+                16/09/1994
+              </li>
+              <li class="col__link">
+                <strong class="link">Email:</strong>
+                example@gmail.com
+              </li>
+            </ul>
+          </div>
+          <!-- Intereses -->
+          <div class="col">
+            <h3 class="subtitulo">Intereses</h3>
+            <div class="contenedor__intereses">
+              <div class="interes">
+                <i class="fa-solid fa-headphones"></i>
+                <span>Musica</span>
+              </div>
+              <div class="interes">
+                <i class="fa-regular fa-futbol"></i>
+                <span>Futbol</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-plane"></i>
+                <span>Viajar</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-book"></i>
+                <span>Leer</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="button-cv">
+          Descargar CV <i class="fa-solid fa-download"></i>
+          <span class="overlay"></span>
+        </button>
+      </div>
+    </section>
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+      <div class="skills__contenedor">
+        <h2 class="titulo">Skills</h2>
+        <div class="fila">
+          <!-- technical skill -->
+          <div class="col">
+            <h3 class="subtitulo">Technical Skills</h3>
+            <div class="skill">
+              <span class="skill__nombre">JavaScript</span>
+              <div class="skill__barra">
+                <div class="skill__progreso">
+                  <span class="skill__porcentaje">60%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span class="skill__nombre">HTML & CSS</span>
+              <div class="skill__barra">
+                <div class="skill__progreso">
+                  <span class="skill__porcentaje">60%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- profesional skill -->
+          <div class="col">
+            <h3 class="subtitulo">Profesional Skills</h3>
+            <div class="skill">
+              <span class="skill__nombre">Trabajo en equipo</span>
+              <div class="skill__barra">
+                <div class="skill__progreso">
+                  <span class="skill__porcentaje">100%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span class="skill__nombre">Comunicacion</span>
+              <div class="skill__barra">
+                <div class="skill__progreso">
+                  <span class="skill__porcentaje">80%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span class="skill__nombre">Creatividad</span>
+              <div class="skill__barra">
+                <div class="skill__progreso">
+                  <span class="skill__porcentaje">80%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SECCION CURRICULUM -->
+    <section class="curriculum" id="curriculum">
+      <div class="curriculum__contenedor">
+        <h2 class="curriculum__titulo titulo">Curriculum</h2>
+        <div class="curriculum__fila">
+          <div class="curriculum__col izquierda">
+            <h3 class="curriculum__subtitulo subtitulo">Educacion</h3>
+            <div class="curriculum__itemizqui item">
+              <h4 class="item__titulo">Contabilidad</h4>
+              <span class="item__lugar">San francisco de asis</span>
+              <span class="item__fecha">2000-2005</span>
+              <p class="item__parrafo">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+                nostrum assumenda aspernatur voluptatem perspiciatis veniam qui.
+                Fugiat ut at, sint facilis rem dolore incidunt suscipit quidem
+                numquam adipisci? Neque, sint?
+              </p>
+              <div class="item__conectori">
+                <div class="item__circuloi"></div>
+              </div>
+            </div>
+            <div class="curriculum__itemizqui item">
+              <h4 class="item__titulo">Contabilidad</h4>
+              <span class="item__lugar">San francisco de asis</span>
+              <span class="item__fecha">2000-2005</span>
+              <p class="item__parrafo">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+                nostrum assumenda aspernatur voluptatem perspiciatis veniam qui.
+                Fugiat ut at, sint facilis rem dolore incidunt suscipit quidem
+                numquam adipisci? Neque, sint?
+              </p>
+              <div class="item__conectori">
+                <div class="item__circuloi"></div>
+              </div>
+            </div>
+          </div>
+          <div class="curriculum__col derecha">
+            <h3 class="curriculum__subtitulo subtitulo">
+              Experiencia de Trabajo
+            </h3>
+            <div class="curriculum__itemder item">
+              <h4 class="item__titulo">Primer trabajo</h4>
+              <span class="item__lugar">Delinter</span>
+              <span class="item__fecha">2000-2005</span>
+              <p class="item__parrafo">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+                nostrum assumenda aspernatur voluptatem perspiciatis veniam qui.
+                Fugiat ut at, sint facilis rem dolore incidunt suscipit quidem
+                numquam adipisci? Neque, sint?
+              </p>
+              <div class="item__conectord">
+                <div class="item__circulod"></div>
+              </div>
+            </div>
+            <div class="curriculum__itemder item">
+              <h4 class="item__titulo">Segundo trabajo</h4>
+              <span class="item__lugar">Mutual medica</span>
+              <span class="item__fecha">2000-2005</span>
+              <p class="item__parrafo">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+                nostrum assumenda aspernatur voluptatem perspiciatis veniam qui.
+                Fugiat ut at, sint facilis rem dolore incidunt suscipit quidem
+                numquam adipisci? Neque, sint?
+              </p>
+              <div class="item__conectord">
+                <div class="item__circulod"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

@@ -19,3 +19,8 @@
 html {
   scroll-behavior: smooth;
 }
+
+.contenedor {
+  max-width: 1100px;
+  margin: auto;
+}

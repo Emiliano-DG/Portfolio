@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="css/skills.css" />
     <link rel="stylesheet" href="css/curriculum.css" />
     <link rel="stylesheet" href="css/portfolio.css" />
+    <link rel="stylesheet" href="css/contacto.css" />
+    <link rel="stylesheet" href="css/footer.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
@@ -302,5 +304,75 @@
         </div>
       </div>
     </section>
+    <!-- SECCION CONTACTO -->
+    <section class="contacto" id="contacto">
+      <div class="contacto__contenedor contenedor">
+        <h2 class="contacto__titulo titulo">CONTACTO</h2>
+        <div class="contacto__fila">
+          <!-- Formulario -->
+          <div class="contacto__col form">
+            <input class="form__input" type="text" placeholder="Tu Nombre" />
+
+            <input
+              class="form__input"
+              type="text"
+              placeholder="Direccion de correo"
+            />
+            <input class="form__input" type="text" placeholder="Tema" />
+            <textarea
+              name=""
+              id=""
+              class="form__textarea"
+              cols="30"
+              rows="10"
+              placeholder="Mensaje"
+            ></textarea>
+            <button class="form__button">
+              Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+              <span class="form__overlay"></span>
+            </button>
+          </div>
+          <!-- Datos -->
+          <div class="contacto__col datos">
+            <div class="datos">
+              <ul class="datos__contenedor">
+                <li class="datos__info">
+                  <div class="datos__icono icono">
+                    <i class="fa-solid fa-location-dot icono__dibujo"></i>
+                    <span class="icono__nombre">Direccion</span>
+                  </div>
+                  Nicaragua 159, San Rafael Mza
+                </li>
+                <li class="datos__info">
+                  <div class="datos__icono icono">
+                    <i class="fa-solid fa-mobile-screen icono__dibujo"></i>
+                    <span class="icono__nombre">Telefono</span>
+                  </div>
+                  2384 - 4343443
+                </li>
+                <li class="datos__info">
+                  <div class="datos__icono icono">
+                    <i class="fa-solid fa-envelope icono__dibujo"></i>
+                    <span class="icono__nombre">Email</span>
+                  </div>
+                  cw@example.com
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <footer>
+      <a href="#inicio" class="arriba">
+        <i class="fa-solid fa-angle-up"></i>
+      </a>
+      <div class="redes">
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </footer>
   </body>
 </html>

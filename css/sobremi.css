@@ -88,9 +88,10 @@
   position: absolute;
   top: 0;
   left: 0;
-  background-color: var(--naranja-color);
+
   width: 0;
   height: 100%;
+  background-color: var(--naranja-color);
   z-index: -1;
   transition: 1s;
 }

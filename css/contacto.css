@@ -13,18 +13,29 @@
   padding: 10px;
   position: relative;
 }
-
+.form__campo {
+  margin-bottom: 20px;
+}
 .form__input,
 .form__textarea {
   display: block;
   width: 100%;
   padding: 18px;
   border: 2px solid #fff;
-  margin-bottom: 20px;
   background-color: var(--tarjetas-color);
   color: #fff;
   font-size: 1.2rem;
 }
+
+.invalid {
+  border: 2px solid red;
+  box-shadow: 0 0 4px red;
+}
+
+.form__error {
+  color: red;
+}
+
 .form__button {
   cursor: pointer;
   width: fit-content;

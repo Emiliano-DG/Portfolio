@@ -137,16 +137,16 @@
             <div class="skill">
               <span class="skill__nombre">JavaScript</span>
               <div class="skill__barra">
-                <div class="skill__progreso">
-                  <span class="skill__porcentaje">60%</span>
+                <div class="skill__progreso javascript">
+                  <span class="skill__porcentaje">50%</span>
                 </div>
               </div>
             </div>
             <div class="skill">
               <span class="skill__nombre">HTML & CSS</span>
               <div class="skill__barra">
-                <div class="skill__progreso">
-                  <span class="skill__porcentaje">60%</span>
+                <div class="skill__progreso htmlcss">
+                  <span class="skill__porcentaje">70%</span>
                 </div>
               </div>
             </div>
@@ -157,7 +157,7 @@
             <div class="skill">
               <span class="skill__nombre">Trabajo en equipo</span>
               <div class="skill__barra">
-                <div class="skill__progreso">
+                <div class="skill__progreso equipo">
                   <span class="skill__porcentaje">100%</span>
                 </div>
               </div>
@@ -165,15 +165,15 @@
             <div class="skill">
               <span class="skill__nombre">Comunicacion</span>
               <div class="skill__barra">
-                <div class="skill__progreso">
-                  <span class="skill__porcentaje">80%</span>
+                <div class="skill__progreso comunicacion">
+                  <span class="skill__porcentaje">100%</span>
                 </div>
               </div>
             </div>
             <div class="skill">
               <span class="skill__nombre">Creatividad</span>
               <div class="skill__barra">
-                <div class="skill__progreso">
+                <div class="skill__progreso creatividad">
                   <span class="skill__porcentaje">80%</span>
                 </div>
               </div>
@@ -310,28 +310,59 @@
         <h2 class="contacto__titulo titulo">CONTACTO</h2>
         <div class="contacto__fila">
           <!-- Formulario -->
-          <div class="contacto__col form">
-            <input class="form__input" type="text" placeholder="Tu Nombre" />
+          <form class="contacto__col form">
+            <div class="form__campo">
+              <input
+                class="form__input"
+                type="text"
+                placeholder="Tu Nombre"
+                required
+                maxlength="50"
+                name="username"
+              />
+              <span class="form__error"></span>
+            </div>
+            <div class="form__campo">
+              <input
+                class="form__input"
+                type="email"
+                placeholder="Direccion de correo"
+                required
+                name="email"
+              />
+              <span class="form__error"></span>
+            </div>
+            <div class="form__campo">
+              <input
+                class="form__input"
+                type="text"
+                placeholder="Tema"
+                required
+                maxlength="50"
+                name="tema"
+              />
+              <span class="form__error"></span>
+            </div>
+            <div class="form__campo">
+              <textarea
+                name="texto"
+                id=""
+                class="form__textarea"
+                cols="30"
+                rows="10"
+                placeholder="Mensaje"
+                required
+                maxlength="300"
+              ></textarea>
+              <span class="form__error"></span>
+            </div>
 
-            <input
-              class="form__input"
-              type="text"
-              placeholder="Direccion de correo"
-            />
-            <input class="form__input" type="text" placeholder="Tema" />
-            <textarea
-              name=""
-              id=""
-              class="form__textarea"
-              cols="30"
-              rows="10"
-              placeholder="Mensaje"
-            ></textarea>
-            <button class="form__button">
+            <button type="submit" class="form__button" id="button__form">
               Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
               <span class="form__overlay"></span>
             </button>
-          </div>
+          </form>
+
           <!-- Datos -->
           <div class="contacto__col datos">
             <div class="datos">
@@ -377,5 +408,6 @@
         Desarrolado por <span class="footer__nombre">Geuna Emiliano </span>2023
       </p>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>

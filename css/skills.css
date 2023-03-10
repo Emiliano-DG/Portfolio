@@ -48,9 +48,22 @@
   right: -15px;
 }
 
-/* Clase que se agrega con Javascript */
-
 .javascript {
+  width: 50%;
+}
+.htmlcss {
+  width: 60%;
+}
+.equipo {
+  width: 100%;
+}
+.comunicacion {
+  width: 100%;
+}
+.creatividad {
+  width: 80%;
+}
+/* .javascript {
   width: 0%;
   animation: 2s javascript forwards;
 }
@@ -73,7 +86,7 @@
     width: 0%;
   }
   100% {
-    width: 60%;
+    width: 80%;
   }
 }
 .tequipo {
@@ -114,4 +127,4 @@
   100% {
     width: 80%;
   }
-}
+} */

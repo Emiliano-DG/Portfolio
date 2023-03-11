@@ -48,3 +48,27 @@
   cursor: pointer;
   display: none;
 }
+
+@media screen and (max-width: 980px) {
+  .nav__menu {
+    display: none;
+  }
+  .responsive {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 75px;
+    background-color: var(--background-color);
+    width: 180px;
+  }
+  .nav__responsive {
+    display: block;
+  }
+  .nav__list {
+    display: block;
+  }
+  .nav__li {
+    border-bottom: 1px solid #fff;
+    padding: 20px 0;
+  }
+}

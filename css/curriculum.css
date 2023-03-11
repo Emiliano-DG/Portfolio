@@ -97,3 +97,15 @@
   position: relative;
   bottom: 4px;
 }
+
+@media screen and (max-width: 700px) {
+  .curriculum__fila {
+    display: block;
+  }
+  .curriculum__col {
+    width: 80%;
+  }
+  .curriculum__itemder {
+    margin-left: 20px;
+  }
+}

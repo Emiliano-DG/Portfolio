@@ -3,6 +3,7 @@ const inputEmail = document.querySelector("[name=email]");
 const inputTema = document.querySelector("[name=tema]");
 const inputTexto = document.querySelector("[name=texto]");
 
+// VALIDACION FORMULARIO
 const validacion = (e) => {
   const field = e.target;
   const fieldValue = e.target.value;

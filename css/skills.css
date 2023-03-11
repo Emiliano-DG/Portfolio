@@ -63,68 +63,15 @@
 .creatividad {
   width: 80%;
 }
-/* .javascript {
-  width: 0%;
-  animation: 2s javascript forwards;
-}
 
-@keyframes javascript {
-  0% {
-    width: 0%;
+@media screen and (max-width: 700px) {
+  .fila {
+    display: block;
   }
-  100% {
-    width: 60%;
+  .col {
+    width: 100%;
   }
-}
-.htmlcss {
-  width: 0%;
-  animation: 2s htmlcss forwards;
-}
-
-@keyframes htmlcss {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 80%;
-  }
-}
-.tequipo {
-  width: 0%;
-  animation: 2s tequipo forwards;
-}
-
-@keyframes tequipo {
-  0% {
-    width: 0%;
-  }
-  100% {
+  .skill__barra {
     width: 100%;
   }
 }
-.comunicacion {
-  width: 0%;
-  animation: 2s comunicacion forwards;
-}
-
-@keyframes comunicacion {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 80%;
-  }
-}
-.creatividad {
-  width: 0%;
-  animation: 2s creatividad forwards;
-}
-
-@keyframes creatividad {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 80%;
-  }
-} */

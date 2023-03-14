@@ -33,27 +33,35 @@
         <div class="nav__menu">
           <ul class="nav__list">
             <li class="nav__li">
-              <a href="#inicio" class="nav__link">INICIO</a>
+              <a href="#inicio" class="nav__link" onclick="ocultar()">INICIO</a>
             </li>
             <li class="nav__li">
-              <a href="#sobremi" class="nav__link">SOBRE MI</a>
+              <a href="#sobremi" class="nav__link" onclick="ocultar()"
+                >SOBRE MI</a
+              >
             </li>
             <li class="nav__li">
-              <a href="#skills" class="nav__link">SKILLS</a>
+              <a href="#skills" class="nav__link" onclick="ocultar()">SKILLS</a>
             </li>
             <li class="nav__li">
-              <a href="#curriculum" class="nav__link">CURRICULUM</a>
+              <a href="#curriculum" class="nav__link" onclick="ocultar()"
+                >CURRICULUM</a
+              >
             </li>
             <li class="nav__li">
-              <a href="#portfolio" class="nav__link">PORTFOLIO</a>
+              <a href="#portfolio" class="nav__link" onclick="ocultar()"
+                >PORTFOLIO</a
+              >
             </li>
             <li class="nav__li">
-              <a href="#contacto" class="nav__link">CONTACTO</a>
+              <a href="#contacto" class="nav__link" onclick="ocultar()"
+                >CONTACTO</a
+              >
             </li>
           </ul>
         </div>
 
-        <div class="nav__responsive">
+        <div class="nav__responsive" onclick="mostrarOcultarMenu()">
           <i class="fa-solid fa-bars"></i>
         </div>
       </nav>
@@ -62,15 +70,23 @@
     <section class="inicio" id="inicio">
       <div class="banner">
         <div class="banner__img">
-          <img src="img/perfil.jfif" alt="foto perfil" />
+          <img src="img/perfil.png" alt="foto perfil" />
         </div>
         <h1>EMILIANO GEUNA</h1>
         <h2>Front End Developer</h2>
         <div class="banner__redes">
-          <a href="#"><i class="fa-brands fa-instagram"></i></a>
-          <a href="#"><i class="fa-brands fa-twitter"></i></a>
-          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-          <a href="#"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.instagram.com/emi.geuna/"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="https://twitter.com/EmiiGeuna"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/emiliano-geuna/"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+          <a href="https://github.com/Emiliano-DG"
+            ><i class="fa-brands fa-github"></i
+          ></a>
         </div>
       </div>
     </section>
@@ -80,10 +96,10 @@
         <div class="sobremi__info">
           <h2 class="titulo">SOBRE MI</h2>
           <p>
-            <span>Hola, soy Emiliano Geuna.</span> Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Sed quasi provident totam, deserunt
-            possimus, fugiat odio obcaecati iure eum est non facere mollitia
-            ducimus doloribus ab voluptas quas natus cum.
+            <span>Hola, soy Emiliano Geuna.</span> Actualmente me encuentro
+            estudiando la carrera de Contador Publico en la Universidad Nacional
+            de Rio Cuarto. Soy un aficionado de la programacion por lo que me
+            encuentro en permanente capacitacion.
           </p>
         </div>
         <div class="fila">
@@ -202,14 +218,15 @@
           <div class="curriculum__col izquierda">
             <h3 class="curriculum__subtitulo subtitulo">Educacion</h3>
             <div class="curriculum__itemizqui item">
-              <h4 class="item__titulo">Contabilidad</h4>
-              <span class="item__lugar">San francisco de asis</span>
-              <span class="item__fecha">2000-2005</span>
+              <h4 class="item__titulo">Desarrolo Web Front End</h4>
+              <span class="item__lugar"
+                >Alura - Programa Oracle Next Education</span
+              >
+              <span class="item__fecha">2022-Actualidad</span>
               <p class="item__parrafo">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-                nostrum assumenda aspernatur voluptatem perspiciatis veniam qui.
-                Fugiat ut at, sint facilis rem dolore incidunt suscipit quidem
-                numquam adipisci? Neque, sint?
+                En este curso de tratan los lenguajes HTML, CSS, JAVASCRIPT Y
+                REACT, en el cual se van desarrollando diferentes proyectos.
+                Este curso tiene una duracion de 6 meses
               </p>
               <div class="item__conectori">
                 <div class="item__circuloi"></div>
@@ -217,13 +234,11 @@
             </div>
             <div class="curriculum__itemizqui item">
               <h4 class="item__titulo">Contabilidad</h4>
-              <span class="item__lugar">San francisco de asis</span>
-              <span class="item__fecha">2000-2005</span>
+              <span class="item__lugar">UNRC</span>
+              <span class="item__fecha">2016-Actualidad</span>
               <p class="item__parrafo">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-                nostrum assumenda aspernatur voluptatem perspiciatis veniam qui.
-                Fugiat ut at, sint facilis rem dolore incidunt suscipit quidem
-                numquam adipisci? Neque, sint?
+                Actualmente me encuentro cursando la carrera Contador Publico en
+                el ultimo año de cursado
               </p>
               <div class="item__conectori">
                 <div class="item__circuloi"></div>
@@ -237,12 +252,9 @@
             <div class="curriculum__itemder item">
               <h4 class="item__titulo">Primer trabajo</h4>
               <span class="item__lugar">Delinter</span>
-              <span class="item__fecha">2000-2005</span>
+              <span class="item__fecha"> Dic-2022/Marz-2023</span>
               <p class="item__parrafo">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-                nostrum assumenda aspernatur voluptatem perspiciatis veniam qui.
-                Fugiat ut at, sint facilis rem dolore incidunt suscipit quidem
-                numquam adipisci? Neque, sint?
+                Cargo ocupado: Auxiliar administrativo
               </p>
               <div class="item__conectord">
                 <div class="item__circulod"></div>
@@ -251,12 +263,9 @@
             <div class="curriculum__itemder item">
               <h4 class="item__titulo">Segundo trabajo</h4>
               <span class="item__lugar">Mutual medica</span>
-              <span class="item__fecha">2000-2005</span>
+              <span class="item__fecha">Novi 2023-Actualidad</span>
               <p class="item__parrafo">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-                nostrum assumenda aspernatur voluptatem perspiciatis veniam qui.
-                Fugiat ut at, sint facilis rem dolore incidunt suscipit quidem
-                numquam adipisci? Neque, sint?
+                Cargo ocupado: Auxiliar Administrativo
               </p>
               <div class="item__conectord">
                 <div class="item__circulod"></div>
@@ -272,45 +281,18 @@
         <h2 class="portfolio__titulo titulo">PORTFOLIO</h2>
         <div class="portfolio__galeria">
           <div class="portfolio__proyecto proyecto">
-            <img class="proyecto__img" src="img/p1.jpg" alt="Proyecto 1" />
+            <img
+              class="proyecto__img"
+              src="img/encriptador.jfif"
+              alt="Proyecto 1"
+            />
             <div class="proyecto__overlay">
-              <h3 class="proyecto__subtitulo">Diseño Creativo</h3>
-              <p>Fotografia</p>
-            </div>
-          </div>
-          <div class="portfolio__proyecto proyecto">
-            <img class="proyecto__img" src="img/p2.jpg" alt="Proyecto 1" />
-            <div class="proyecto__overlay">
-              <h3 class="proyecto__subtitulo">Diseño Creativo</h3>
-              <p>Fotografia</p>
-            </div>
-          </div>
-          <div class="portfolio__proyecto proyecto">
-            <img class="proyecto__img" src="img/p3.jpg" alt="Proyecto 1" />
-            <div class="proyecto__overlay">
-              <h3 class="proyecto__subtitulo">Diseño Creativo</h3>
-              <p>Fotografia</p>
-            </div>
-          </div>
-          <div class="portfolio__proyecto proyecto">
-            <img class="proyecto__img" src="img/p4.jpg" alt="Proyecto 1" />
-            <div class="proyecto__overlay">
-              <h3 class="proyecto__subtitulo">Diseño Creativo</h3>
-              <p>Fotografia</p>
-            </div>
-          </div>
-          <div class="portfolio__proyecto proyecto">
-            <img class="proyecto__img" src="img/p5.jpg" alt="Proyecto 1" />
-            <div class="proyecto__overlay">
-              <h3 class="proyecto__subtitulo">Diseño Creativo</h3>
-              <p>Fotografia</p>
-            </div>
-          </div>
-          <div class="portfolio__proyecto proyecto">
-            <img class="proyecto__img" src="img/p6.jpg" alt="Proyecto 1" />
-            <div class="proyecto__overlay">
-              <h3 class="proyecto__subtitulo">Diseño Creativo</h3>
-              <p>Fotografia</p>
+              <h3 class="proyecto__subtitulo">Encriptador</h3>
+              <a
+                class="proyecto__codigo"
+                href="https://github.com/Emiliano-DG/Encriptador"
+                ><p>Codigo GITHUB</p></a
+              >
             </div>
           </div>
         </div>
@@ -412,9 +394,18 @@
         <i class="fa-solid fa-angle-up"></i>
       </a>
       <div class="footer__redes redes">
-        <a href="#"><i class="fa-brands fa-twitter"></i></a>
-        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://twitter.com/EmiiGeuna"
+          ><i class="fa-brands fa-twitter"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/emiliano-geuna/"
+          ><i class="fa-brands fa-linkedin-in"></i
+        ></a>
+        <a href="https://www.instagram.com/emi.geuna/"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a href="https://github.com/Emiliano-DG"
+          ><i class="fa-brands fa-github"></i
+        ></a>
       </div>
       <p>
         Desarrolado por <span class="footer__nombre">Geuna Emiliano </span>2023

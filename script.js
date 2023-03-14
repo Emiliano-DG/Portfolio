@@ -3,6 +3,25 @@ const inputEmail = document.querySelector("[name=email]");
 const inputTema = document.querySelector("[name=tema]");
 const inputTexto = document.querySelector("[name=texto]");
 
+const menu = document.querySelector(".nav__menu");
+let menuVisible = false;
+
+// MOSTRAR / OCULTAR MENU
+const mostrarOcultarMenu = () => {
+  if (menuVisible) {
+    menu.classList.remove("responsive");
+    menuVisible = false;
+  } else {
+    menu.classList.add("responsive");
+    menuVisible = true;
+  }
+};
+
+const ocultar = () => {
+  menu.classList.remove("responsive");
+  menuVisible = false;
+};
+
 // VALIDACION FORMULARIO
 const validacion = (e) => {
   const field = e.target;

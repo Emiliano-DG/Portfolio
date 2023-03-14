@@ -14,7 +14,6 @@
   max-width: 340px;
   height: fit-content;
   margin: 10px;
-  cursor: pointer;
 }
 
 .proyecto__img {
@@ -43,6 +42,17 @@
 
 .proyecto__subtitulo {
   margin-bottom: 20px;
+  transition: 1s;
+}
+
+.proyecto__codigo {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+}
+.proyecto__codigo:hover {
+  color: var(--background-color);
+  font-weight: bold;
   transition: 1s;
 }
 .proyecto__overlay:hover .proyecto__subtitulo {

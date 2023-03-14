@@ -2,6 +2,7 @@ const inputName = document.querySelector("[name=username]");
 const inputEmail = document.querySelector("[name=email]");
 const inputTema = document.querySelector("[name=tema]");
 const inputTexto = document.querySelector("[name=texto]");
+const form = document.querySelector("#form");
 
 const menu = document.querySelector(".nav__menu");
 let menuVisible = false;
@@ -22,6 +23,14 @@ const ocultar = () => {
   menuVisible = false;
 };
 
+//CONTACTO
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  inputName.value = "";
+  inputEmail.value = "";
+  inputTema.value = "";
+  inputTexto.value = "";
+});
 // VALIDACION FORMULARIO
 const validacion = (e) => {
   const field = e.target;
